@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_20f174da5e8513bc753b9825cbb96cf0 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_20f174da5e8513bc753b9825cbb96cf0" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_20f174da5e8513bc753b9825cbb96cf0 = L.map(
+                "map_20f174da5e8513bc753b9825cbb96cf0",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 2,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_ceab96c8503399e0616169b662efa4b9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_ceab96c8503399e0616169b662efa4b9.addTo(map_20f174da5e8513bc753b9825cbb96cf0);
+        
+    
+            var marker_57bba9cfa90b2ec4ce4e0d4b8c709646 = L.marker(
+                [9.047, 167.743],
+                {
+}
+            ).addTo(map_20f174da5e8513bc753b9825cbb96cf0);
+        
+    
+            var icon_70a0f3ea6297a7cc4499fe8f1c11375b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_56ec2b393fa8d7412520cddc667fd4c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e734c617bb09779ec19a2049261e61b6 = $(`<div id="html_e734c617bb09779ec19a2049261e61b6" style="width: 100.0%; height: 100.0%;">Kwajalein Atoll<br>Success Rate: 40.00%</div>`)[0];
+                popup_56ec2b393fa8d7412520cddc667fd4c4.setContent(html_e734c617bb09779ec19a2049261e61b6);
+            
+        
+
+        marker_57bba9cfa90b2ec4ce4e0d4b8c709646.bindPopup(popup_56ec2b393fa8d7412520cddc667fd4c4)
+        ;
+
+        
+    
+    
+                marker_57bba9cfa90b2ec4ce4e0d4b8c709646.setIcon(icon_70a0f3ea6297a7cc4499fe8f1c11375b);
+            
+    
+            var marker_d68e5bb31a4d32984e6c84b009e8fdb8 = L.marker(
+                [28.562, -80.577],
+                {
+}
+            ).addTo(map_20f174da5e8513bc753b9825cbb96cf0);
+        
+    
+            var icon_12a7e8f2defd1ff186ae5f276c09233c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_009bd4f58a87e1e5b274c09d94521efe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_043af6620834f1cf7bedd4884c11affd = $(`<div id="html_043af6620834f1cf7bedd4884c11affd" style="width: 100.0%; height: 100.0%;">Cape Canaveral SLC-40<br>Success Rate: 97.98%</div>`)[0];
+                popup_009bd4f58a87e1e5b274c09d94521efe.setContent(html_043af6620834f1cf7bedd4884c11affd);
+            
+        
+
+        marker_d68e5bb31a4d32984e6c84b009e8fdb8.bindPopup(popup_009bd4f58a87e1e5b274c09d94521efe)
+        ;
+
+        
+    
+    
+                marker_d68e5bb31a4d32984e6c84b009e8fdb8.setIcon(icon_12a7e8f2defd1ff186ae5f276c09233c);
+            
+    
+            var marker_52e0fee021f1499ffdc59d33fb0fdf95 = L.marker(
+                [34.632, -120.611],
+                {
+}
+            ).addTo(map_20f174da5e8513bc753b9825cbb96cf0);
+        
+    
+            var icon_409c7f51653f85e61463b768e94eed89 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7eeb1bbe251131df355c2ef559d9e021 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8e35017d5d674d4ddeb7875717f79657 = $(`<div id="html_8e35017d5d674d4ddeb7875717f79657" style="width: 100.0%; height: 100.0%;">Vandenberg SLC-4E<br>Success Rate: 100.00%</div>`)[0];
+                popup_7eeb1bbe251131df355c2ef559d9e021.setContent(html_8e35017d5d674d4ddeb7875717f79657);
+            
+        
+
+        marker_52e0fee021f1499ffdc59d33fb0fdf95.bindPopup(popup_7eeb1bbe251131df355c2ef559d9e021)
+        ;
+
+        
+    
+    
+                marker_52e0fee021f1499ffdc59d33fb0fdf95.setIcon(icon_409c7f51653f85e61463b768e94eed89);
+            
+    
+            var marker_f6df2aa37da74e8f86fefe26fda2ae0a = L.marker(
+                [28.608, -80.604],
+                {
+}
+            ).addTo(map_20f174da5e8513bc753b9825cbb96cf0);
+        
+    
+            var icon_b7406ac223e306fa2cd121d9b27fcd4a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3318eaabd94c4562b64c666b259ff66a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d88f99c420e211f54702218dcf5289cc = $(`<div id="html_d88f99c420e211f54702218dcf5289cc" style="width: 100.0%; height: 100.0%;">Kennedy Space Center LC-39A<br>Success Rate: 100.00%</div>`)[0];
+                popup_3318eaabd94c4562b64c666b259ff66a.setContent(html_d88f99c420e211f54702218dcf5289cc);
+            
+        
+
+        marker_f6df2aa37da74e8f86fefe26fda2ae0a.bindPopup(popup_3318eaabd94c4562b64c666b259ff66a)
+        ;
+
+        
+    
+    
+                marker_f6df2aa37da74e8f86fefe26fda2ae0a.setIcon(icon_b7406ac223e306fa2cd121d9b27fcd4a);
+            
+</script>
+</html>
